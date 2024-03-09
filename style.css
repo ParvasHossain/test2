@@ -1,0 +1,69 @@
+/* Navbar background color */
+.navbar {
+    background-color: skyblue;
+    display: flex; /* Change to your desired background color */
+  }
+  
+  /* Navbar brand styles */
+  .navbar-brand {
+    top: 10px;
+    left: 20px;
+    background-color: white;
+    background-attachment: scroll;
+    background-size: 100%;
+    position: relative;
+    text-decoration: none;
+    color: crimson; /* Brand text color */
+    font-weight: bolder;
+  }
+  
+  /* Navbar toggler icon color */
+  .navbar-toggler-icon {
+    
+    color: green; /* Toggler icon color */
+  }
+  
+  /* Navbar links styles */
+  .navbar-nav .nav-link {
+    color: green; /* Link text color */
+  }
+  
+  /* Active link styles */
+  .navbar-nav .nav-link.active {
+    font-weight: bold;
+  }
+  
+  /* Dropdown menu styles */
+  .dropdown-menu {
+    background-color: #f8f9fa; /* Dropdown background color */
+  }
+  
+  .dropdown-item {
+    color: skyblue; /* Dropdown item text color */
+  }
+  
+  .dropdown-divider {
+    border-top-color: #e9ecef; /* Dropdown divider color */
+  }
+  
+  /* Disabled link styles */
+  .navbar-nav .nav-link.disabled {
+    color: red; /* Disabled link text color */
+  }
+  
+  /* Search form styles */
+  .form-control {
+    border-color: #ced4da; /* Search input border color */
+  }
+  
+  .btn-outline-success {
+    color: #28a745; /* Search button text color */
+    border-color: #28a745; /* Search button border color */
+  }
+  
+  .btn-outline-success:hover {
+    color: #fff; /* Hover text color */
+    background-color: #28a745; /* Hover background color */
+    border-color: #28a745; /* Hover border color */
+  }
+  
